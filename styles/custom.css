@@ -1,0 +1,118 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body {
+}
+
+.ui-content{
+    /*background-color: lightblue;*/
+    background: lightblue; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(lightblue, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(lightblue, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(lightblue, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(lightblue, white); /* Standard syntax (must be last) */
+    overflow-x: auto;
+}
+
+
+.introParagraph {
+	width: 100%;
+	text-align: center;
+	line-height: 170%;
+	padding: 10px;
+}
+
+.introTable {
+    width: 75%;
+    border: 2px solid black;
+    margin-bottom: 25px;
+}
+
+    .introTable td {
+	    text-align: center;
+        line-height: 170%;
+	    
+	    padding: 10px;
+    }
+
+
+.techTable {
+	width: 100%;
+    margin: 10px auto;
+    overflow-x: auto;
+}
+
+    .techTable td	{
+	    text-align: center;
+	    border: 2px solid black;
+	    padding: 10px;
+    }
+
+h2 {
+    text-align:center;
+}
+
+.certificationTable {
+	width: 100%;
+    margin: 10px auto;
+}
+
+    .certificationTable td {
+	    text-align: center;
+	    border: 2px solid black;	
+    }
+
+.certificationParagraph {
+	width: 100%;
+	text-align: center;
+	line-height: 170%;
+	padding: 10px;
+}
+
+.pageDiv {
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: white;
+}
+    .resumeHeader {
+        width: 100%;
+        height: 100px;
+        border: 2px solid black;
+        background-color: rgb(102,153,255);
+    }
+
+        .resumeHeader p {
+            padding: 10px;
+            text-align: right;
+            color: white;
+        }
+
+.resumeBody {
+        width: 100%;
+        height: auto;
+        /*border: 2px solid black;*/
+}
+
+.resumeData {
+
+}
+    .resumeData td {
+        border-bottom: 1px solid black;
+        padding-bottom: 10px;
+    }
+
+    .dataOne {
+        text-align: center;
+    }
+
+.footerCustom {
+    position: fixed;
+    bottom:0;
+    left: 0;
+    right: 0;
+    top: 0;
+	text-align: right;
+	padding: 10px;
+}
